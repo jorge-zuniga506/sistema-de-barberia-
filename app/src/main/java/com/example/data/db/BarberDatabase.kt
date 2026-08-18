@@ -77,7 +77,7 @@ abstract class BarberDatabase : RoomDatabase() {
                     wifiInfo = "WiFi: BarberiaPass",
                     defaultRetention = 2000.0,
                     currencySymbol = "₡",
-                    headerGreeting = "★ COMPROBANTE DE PAGO ★",
+                    headerGreeting = "COMPROBANTE DE PAGO",
                     ticketFooter = "¡Gracias por su preferencia! Calidad y estilo en cada corte.",
                     customPolicy = "Conserve su ticket para cualquier consulta",
                     showSlogan = true,

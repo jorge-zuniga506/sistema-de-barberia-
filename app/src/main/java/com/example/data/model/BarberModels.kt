@@ -61,7 +61,7 @@ data class AppSettings(
     val wifiInfo: String = "WiFi: BarberiaPass",
     val defaultRetention: Double = 2000.0,
     val currencySymbol: String = "₡",
-    val headerGreeting: String = "★ COMPROBANTE DE PAGO ★",
+    val headerGreeting: String = "COMPROBANTE DE PAGO",
     val ticketFooter: String = "¡Gracias por su preferencia! Calidad y estilo en cada corte.",
     val customPolicy: String = "Conserve su ticket para cualquier consulta",
     

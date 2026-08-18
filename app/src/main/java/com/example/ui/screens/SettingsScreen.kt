@@ -280,7 +280,7 @@ fun SettingsScreen(
                 ) {
                     val tabs = listOf(
                         "Local",
-                        "🎨 Ticket",
+                        "Ticket",
                         "Impresora",
                         "Barberos (${allBarbers.size})",
                         "Servicios (${allServices.size})"
@@ -467,7 +467,7 @@ fun SettingsScreen(
 
                         // 2. Instagram
                         TicketFieldWithSwitch(
-                            label = "📸 Instagram de la Barbería",
+                            label = "Instagram de la Barbería",
                             value = instagram,
                             onValueChange = { instagram = it },
                             placeholder = "Ej. @barberia_costarica",
@@ -478,7 +478,7 @@ fun SettingsScreen(
 
                         // 3. Teléfono / WhatsApp de Contacto
                         TicketFieldWithSwitch(
-                            label = "📞 Teléfono / WhatsApp de Contacto",
+                            label = "Teléfono / WhatsApp de Contacto",
                             value = contactPhone,
                             onValueChange = { contactPhone = it },
                             placeholder = "Ej. 2222-3344 / 8888-9999",
@@ -490,7 +490,7 @@ fun SettingsScreen(
 
                         // 4. Teléfono SINPE Móvil
                         TicketFieldWithSwitch(
-                            label = "📱 Número para SINPE Móvil",
+                            label = "Número para SINPE Móvil",
                             value = sinpePhone,
                             onValueChange = { sinpePhone = it },
                             placeholder = "Ej. 8888-2424",
@@ -502,7 +502,7 @@ fun SettingsScreen(
 
                         // 5. Dirección Física
                         TicketFieldWithSwitch(
-                            label = "📍 Dirección / Local",
+                            label = "Dirección / Local",
                             value = address,
                             onValueChange = { address = it },
                             placeholder = "Ej. Centro Comercial Los Arcos, Local #5",
@@ -513,7 +513,7 @@ fun SettingsScreen(
 
                         // 6. Información de WiFi para Clientes
                         TicketFieldWithSwitch(
-                            label = "📶 Red / Clave WiFi para Clientes",
+                            label = "Red / Clave WiFi para Clientes",
                             value = wifiInfo,
                             onValueChange = { wifiInfo = it },
                             placeholder = "Ej. WiFi: BarberiaVIP | Clave: Pass2026",
@@ -524,7 +524,7 @@ fun SettingsScreen(
 
                         // 7. Web o Red Social adicional
                         TicketFieldWithSwitch(
-                            label = "🌐 Web / TikTok / Facebook (Opcional)",
+                            label = "Web / Red Social (Opcional)",
                             value = facebookOrWeb,
                             onValueChange = { facebookOrWeb = it },
                             placeholder = "Ej. tiktok: @barberia_cr",
@@ -538,7 +538,7 @@ fun SettingsScreen(
                             value = headerGreeting,
                             onValueChange = { headerGreeting = it },
                             label = { Text("Texto de Saludo Superior") },
-                            placeholder = { Text("Ej. ★ COMPROBANTE DE PAGO ★", color = SophisticatedTextMuted) },
+                            placeholder = { Text("Ej. COMPROBANTE DE PAGO", color = SophisticatedTextMuted) },
                             modifier = Modifier.fillMaxWidth(),
                             shape = RoundedCornerShape(12.dp),
                             colors = textFieldColors
@@ -559,7 +559,7 @@ fun SettingsScreen(
 
                         // 10. Políticas o Términos
                         TicketFieldWithSwitch(
-                            label = "📋 Política / Nota Legal",
+                            label = "Política / Nota Legal",
                             value = customPolicy,
                             onValueChange = { customPolicy = it },
                             placeholder = "Ej. Conserve su comprobante para cualquier consulta.",
