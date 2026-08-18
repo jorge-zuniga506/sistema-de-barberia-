@@ -1,0 +1,6 @@
+{
+  "name": "Barbería",
+  "description": "Sistema de gestión y caja para barbería con comisiones, tickets térmicos y pagos en Efectivo/SINPE.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

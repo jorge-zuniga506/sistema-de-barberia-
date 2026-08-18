@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center Barber Scissors & Razor Emblem -->
+    <!-- Gold Gradient -->
+    <path
+        android:pathData="M54,28 L62,42 L54,52 L46,42 Z"
+        android:fillColor="#FFD56B" />
+    <!-- Crossed Scissors Blades -->
+    <path
+        android:pathData="M36,74 C33,74 30,71 30,68 C30,64.7 32.7,62 36,62 C37.8,62 39.4,62.8 40.5,64.1 L51,53.6 L47,49.6 L38,58.6 C37.4,58.2 36.7,58 36,58 C32.7,58 30,60.7 30,64 C30,67.3 32.7,70 36,70 C37.3,70 38.5,69.6 39.4,68.9 L54,54.3 L68.6,68.9 C69.5,69.6 70.7,70 72,70 C75.3,70 78,67.3 78,64 C78,60.7 75.3,58 72,58 C71.3,58 70.6,58.2 70,58.6 L61,49.6 L57,53.6 L67.5,64.1 C68.6,62.8 70.2,62 72,62 C75.3,62 78,64.7 78,68 C78,71 75,74 72,74 C69.8,74 67.9,72.8 66.8,71 L54,58.2 L41.2,71 C40.1,72.8 38.2,74 36,74 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="78"
+                android:endY="74"
+                android:startX="30"
+                android:startY="30"
+                android:type="linear">
+                <item android:color="#FFF1C5" android:offset="0.0" />
+                <item android:color="#E6A126" android:offset="0.5" />
+                <item android:color="#C57D0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Scissors Blades extending upwards -->
+    <path
+        android:pathData="M51,46 L40,32 C39,30.5 40,29 42,29.5 L53.5,43.5 Z"
+        android:fillColor="#FFEDB3" />
+    <path
+        android:pathData="M57,46 L68,32 C69,30.5 68,29 66,29.5 L54.5,43.5 Z"
+        android:fillColor="#FFEDB3" />
+    <!-- Center Pivot Pin -->
+    <path
+        android:pathData="M54,54m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0"
+        android:fillColor="#21262D" />
+    <path
+        android:pathData="M54,54m-1.2,0a1.2,1.2 0,1 1,2.4 0a1.2,1.2 0,1 1,-2.4 0"
+        android:fillColor="#FFD56B" />
+    <!-- Razor / Comb bar below -->
+    <path
+        android:pathData="M38,78 L70,78 A2,2 0 0 1 72,80 L72,81 A2,2 0 0 1 70,83 L38,83 A2,2 0 0 1 36,81 L36,80 A2,2 0 0 1 38,78 Z"
+        android:fillColor="#E6A126" />
+</vector>
+
